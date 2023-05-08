@@ -1,0 +1,50 @@
+.weather-heading {
+  color: #0077cc; /* blue */
+}
+
+.weather-info {
+  background-color: #f2f2f2; /* light gray */
+  border: 1px solid #ddd; /* gray */
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.weather-label {
+  font-weight: bold;
+  color: #333; /* dark gray */
+}
+
+dd {
+  margin-left: 0;
+  color: #555; /* gray */
+}
+
+/* app/assets/stylesheets/weather_forecast.css */
+
+.error-container {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+}
+
+.error-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #721c24;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  font-size: 24px;
+  font-weight: bold;
+  color: #721c24;
+  margin-bottom: 20px;
+}
+
+.error-code {
+  font-size: 16px;
+  font-weight: bold;
+  color: #721c24;
+}

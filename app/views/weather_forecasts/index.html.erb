@@ -1,0 +1,7 @@
+<h1>Weather Forecast</h1>
+
+<%= form_tag(current_weather_path, method: :get) do %>
+  <%= label_tag(:address, 'Address:') %>
+  <%= text_field_tag(:address) %>
+  <%= submit_tag('Get Forecast') %>
+<% end %>

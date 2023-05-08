@@ -1,0 +1,26 @@
+<h1 class="weather-heading">Current Weather</h1>
+
+<dl class="weather-info">
+  <dt class="weather-label">Weather:</dt>
+  <dd><%= @weather[:weather] %></dd>
+
+  <dt class="weather-label">Weather Description:</dt>
+  <dd><%= @weather[:weather_description] %></dd>
+
+  <dt class="weather-label">Current Temperature:</dt>
+  <dd><%= @weather[:current_temp] %></dd>
+
+  <dt class="weather-label">Minimum Temperature:</dt>
+  <dd><%= @weather[:min_temp] %></dd>
+
+  <dt class="weather-label">Maximum Temperature:</dt>
+  <dd><%= @weather[:max_temp] %></dd>
+
+  <dt class="weather-label">Humidity:</dt>
+  <dd><%= @weather[:humidity] %></dd>
+
+  <% if @weather[:from_cache] %>
+    <dt class="weather-label">Response from Cache:</dt>
+    <dd>Yes</dd>
+  <% end %>
+</dl>
