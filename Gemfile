@@ -64,6 +64,9 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem 'pry'
+  # Adds 'step', 'next', 'finish', 'continue' and 'break' commands to control execution.
+  gem 'pry-byebug'
 end
 
 group :test do
@@ -73,7 +76,7 @@ group :test do
   gem "webdrivers"
 end
 
-# For usind env file in application
+# For using env file in application
 gem 'dotenv-rails'
 
 # To get current weather

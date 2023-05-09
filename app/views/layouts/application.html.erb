@@ -11,6 +11,9 @@
   </head>
 
   <body>
+    <% if @error %>
+      <%= render "shared/error", locals: {error: @error} %> 
+    <% end %>
     <%= yield %>
   </body>
 </html>
