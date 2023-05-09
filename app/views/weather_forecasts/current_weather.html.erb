@@ -1,7 +1,7 @@
 <% if @weather && @weather['cod'] == 200 %>
   <h1 class="weather-heading">Current Weather</h1>
 
-  <% presenter = WeatherForcastPresenter.new @weather %>
+  <% presenter = WeatherForecastPresenter.new @weather %>
 
   <dl class="weather-info">
     <dt class="weather-label">Weather:</dt>

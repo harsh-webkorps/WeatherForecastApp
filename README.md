@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### System Information
+* Ruby 2.7.5, Rails >= 7.0.4.3
 
-Things you may want to cover:
+#### How to setup and run locally
+* Clone the respository - git clone https://github.com/SPenmetsaa/WeatherForecast_Task.git
+* Change to project directory - cd WeatherForecast_Task
+* Install the dependencies - bundle install
+* Start the application server - bundle exec rails server
 
-* Ruby version
+#### Run test cases
+bundle exec rspec spec
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### Secrets
+`.env` file is used with the [dotenv-rails] for managing secrets. 

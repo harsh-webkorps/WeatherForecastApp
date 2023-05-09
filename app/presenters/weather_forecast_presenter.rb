@@ -1,4 +1,4 @@
-class WeatherForcastPresenter
+class WeatherForecastPresenter
   def initialize(weather)
     @weather = weather
   end
